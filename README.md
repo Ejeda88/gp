@@ -15,18 +15,15 @@
 |<a href="https://projectlombok.org/">Lombok</a> |Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.|
 |<a href="https://swagger.io/">Swagger</a>       |Open-Source software framework backed by a large ecosystem of tools that helps developers design, build, document, and consume RESTful Web services.           |
 
-## Technical Functionalities and To-Do
+## Technical improvements to be made
 <details open="open">
    <ul>
-      <li>[x] Software documentation - <a href="https://swagger.io/">Swagger</a>, <a href="https://en.wikipedia.org/wiki/Javadoc">Javadoc</a>, <a href="https://www.postman.com/collection/">Postman Collection</a></li>
       <li>[ ] Multiple Databases, to separate users and passwords from the rest of the car information</li>
       <li>[ ] Unit Tests, Integration Tests</li>
-      <li>[ ] Spring Boot Admin</li>
-      <li>[ ] NoSQL (MongoDB)</li>
-      <li>[ ] Multitenancy</li>
-      <li>[ ] Micrometer</li>
-      <li>[ ] Grafna</li>
-      <li>[ ] Spring Retry</li>
+      <li>[ ] Multitenancy, to provide support to different companies</li>
+      <li>[ ] Add ELK</li>
+      
+      <li>[ ] <a href="[https://spring.io/projects/spring-security](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html)">Spring Feign </a></li>
       <li>[ ] <a href="https://spring.io/projects/spring-security">Spring Security</a> RBAC, Session Timeout</li>
       <li>[ ] <a href="https://docs.spring.io/spring-data/jpa/docs/2.7.x/reference/html/#jpa.auditing">JPA Auditing via AuditorAware Interface</a></li>
       <li>[ ] <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-profiles">Spring Profiles</a> (dev, production, qa, staging, test)</li>
