@@ -25,12 +25,36 @@
       <li>[ ] <a href="https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html">Spring Feign. </a></li>
       <li>[ ] <a href="https://spring.io/projects/spring-security">Spring Security</a> RBAC, Session Timeout.</li>
       <li>[ ] <a href="https://docs.spring.io/spring-data/jpa/docs/2.7.x/reference/html/#jpa.auditing">JPA Auditing via AuditorAware Interface.</a></li>
-      <li>[ ] <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-profiles">Spring Profiles</a> (production, qa, staging, test)</li>
-      <li>[ ] <a href="https://www.docker.com/">Docker</a></li>
-      <li>[ ] <a href="https://docs.spring.io/spring-boot/docs/2.7.7-SNAPSHOT/reference/html/io.html#io.caching">Caching</a></li>
+      <li>[ ] <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-profiles">Spring Profiles</a> (production, qa, staging, test).</li>
+      <li>[ ] <a href="https://www.docker.com/">Docker.</a></li>
+      <li>[ ] <a href="https://docs.spring.io/spring-boot/docs/2.7.7-SNAPSHOT/reference/html/io.html#io.caching">Caching.</a></li>
       <li>[ ] <a href="https://www.jsonwebtoken.io/">JSON Web Token</a> based authentication.</li>
       <li>[ ] <a href="https://docs.spring.io/spring-cloud-config/docs/current/reference/html/">Spring Cloud Config Server</a>, to centralize microservices configuration.</li>
-      <li>[ ] <a href="https://spring.io/projects/spring-cloud-gateway">Spring Cloud Gateway</a></li>
-      <li>[ ] <a href="https://spring.io/projects/spring-cloud-netflix">Spring Cloud Netflix</a></li>
+      <li>[ ] <a href="https://spring.io/projects/spring-cloud-gateway">Spring Cloud Gateway.</a></li>
+      <li>[ ] <a href="https://spring.io/projects/spring-cloud-netflix">Spring Cloud Netflix.</a></li>
   </ul>
 </details>
+
+## EER Diagram
+
+### Table cliente 
+| Idx | Field Name | Data Type |
+|---|---|---|
+| *🔑 ⬋ | <a name='PUBLIC.cliente_id'>id</a>| INTEGER  |
+|  | <a name='PUBLIC.cliente_apellidos'>apellidos</a>| VARCHAR&#40;50&#41;  |
+|  | <a name='PUBLIC.cliente_nombre'>nombre</a>| VARCHAR&#40;30&#41;  |
+|  | <a name='PUBLIC.cliente_dni'>dni</a>| VARCHAR&#40;10&#41;  |
+|  | <a name='PUBLIC.cliente_points'>points</a>| INTEGER  |
+
+### Table coche 
+| Idx | Field Name | Data Type |
+|---|---|---|
+| *🔑 | <a name='PUBLIC.coche_id'>id</a>| INTEGER  |
+|  | <a name='PUBLIC.coche_fx_alquiler'>fx&#95;alquiler</a>| TIMESTAMP  |
+|  | <a name='PUBLIC.coche_fx_devolucion'>fx&#95;devolucion</a>| TIMESTAMP  |
+|  | <a name='PUBLIC.coche_marca'>marca</a>| VARCHAR&#40;20&#41;  |
+|  | <a name='PUBLIC.coche_modelo'>modelo</a>| VARCHAR&#40;20&#41;  |
+|  | <a name='PUBLIC.coche_tipo'>tipo</a>| VARCHAR&#40;10&#41;  |
+|⬈| <a name='PUBLIC.coche_cliente_id'>cliente&#95;id</a>| INTEGER  |
+| Foreign Keys |
+|  | fk_coche_cliente | ( cliente&#95;id ) ref [PUBLIC&#46;cliente](#cliente) (id) |
