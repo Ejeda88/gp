@@ -8,7 +8,7 @@ For a car rental system, we want to create a piece of software for managing the 
 + Calculate the price for rental
 + Keep the track of the customer loyalty points
  
-### Price
+#### Price
 The price of rentals is based in the type of the car and how many days it has been rented for.
 The users will say when renting the car for how many days they want to rent it and they will pay up front.
 If the car is returned late, then rent for extra days will be charged when returning.
@@ -31,7 +31,7 @@ Price is:
 + More than 7 days: 60% of <small price per day
 + Extra day: small price + 30% of small price
 
-### Prices:
+#### Prices:
 + premium price: 300€
 + SUV price: 150€
 +  small price: 50€
@@ -183,3 +183,5 @@ Customers get loyalty points when renting a car, regardless of the time.
 * 	`test/` - contains unit and integration tests
 
 * 	`pom.xml` - contains all the project dependencies
+ 
+ 
