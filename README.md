@@ -188,12 +188,6 @@ Customers get loyalty points when renting a car, regardless of the time.
 
 * Default active profile is **`dev`**. When the application is running, the necessary tables and system data (defined in the *`data.sql`*) will be created. Normally in **`test`** profiles, applications use the **H2** database (data in memory). For this test I have decided to use a H2. In a normal project, for the development profile, I would have opted for a database such as **Postgres**, **MySql** or similar.
 
-* 	URL to access application UI: **http://localhost:8080/sbat/index** or **https://192.168.99.102:8080/sbat/index** if **SSL** is enabled.
-
-* 	Other sample profiles like **`dev`**, **`production`**, **`qa`**, and  **`staging`** are available. Change the **spring.profiles.active** property in the **application.properties** file to any of the aforementioned profiles to use it.
-
-*	To enable or disable **SSL** support, in the **application properties** file turn **server.ssl.enabled** to **true** or **false**
-
 <details open="open">
 	<ul>
 		<li><a href="#running-the-application-with-ide">Running the application with IDE</a></li>
@@ -215,7 +209,7 @@ Customers get loyalty points when renting a car, regardless of the time.
 
 #### Running the application with IDE
 
-There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.arc.sbtest.SBtemplateApplication` class from your IDE.
+There are several ways to run a Spring Boot application on your local machine. One way is to execute the `main` method in the `com.globalpay.demoDemoApplication` class from your IDE.
 
 * 	Download the zip or clone the Git repository.
 * 	Unzip the zip file (if you downloaded one)
