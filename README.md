@@ -18,16 +18,19 @@
 ## Technical improvements to be made
 <details open="open">
    <ul>
-      <li>[ ] Multiple Databases, to separate users and passwords from the rest of the car information</li>
-      <li>[ ] Unit Tests, Integration Tests</li>
-      <li>[ ] Multitenancy, to provide support to different companies</li>
-      <li>[ ] <a href="https://www.javainuse.com/spring/springboot-microservice-elk">Add ELK</a></li>
-      <li>[ ] <a href="https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html">Spring Feign </a></li>
-      <li>[ ] <a href="https://spring.io/projects/spring-security">Spring Security</a> RBAC, Session Timeout</li>
-      <li>[ ] <a href="https://docs.spring.io/spring-data/jpa/docs/2.7.x/reference/html/#jpa.auditing">JPA Auditing via AuditorAware Interface</a></li>
-      <li>[ ] <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-profiles">Spring Profiles</a> (dev, production, qa, staging, test)</li>
+      <li>[ ] Multiple Databases, to separate users and passwords from the rest of the car information.</li>
+      <li>[ ] Unit Tests, Integration Tests.</li>
+      <li>[ ] Multitenancy, to provide support to different companies.</li>
+      <li>[ ] <a href="https://www.javainuse.com/spring/springboot-microservice-elk">Add ELK.</a></li>
+      <li>[ ] <a href="https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html">Spring Feign. </a></li>
+      <li>[ ] <a href="https://spring.io/projects/spring-security">Spring Security</a> RBAC, Session Timeout.</li>
+      <li>[ ] <a href="https://docs.spring.io/spring-data/jpa/docs/2.7.x/reference/html/#jpa.auditing">JPA Auditing via AuditorAware Interface.</a></li>
+      <li>[ ] <a href="https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-profiles">Spring Profiles</a> (production, qa, staging, test)</li>
       <li>[ ] <a href="https://www.docker.com/">Docker</a></li>
       <li>[ ] <a href="https://docs.spring.io/spring-boot/docs/2.7.7-SNAPSHOT/reference/html/io.html#io.caching">Caching</a></li>
-      <li>[ ] <a href="https://www.jsonwebtoken.io/">JSON Web Token</a> based authentication</li>
+      <li>[ ] <a href="https://www.jsonwebtoken.io/">JSON Web Token</a> based authentication.</li>
+      <li>[ ] <a href="https://docs.spring.io/spring-cloud-config/docs/current/reference/html/">Spring Cloud Config Server, to centralize microservices configuration.</li>
+         <li>[ ] <a href="https://spring.io/projects/spring-cloud-gateway">Spring Cloud Gateway</a></li>
+      
    </ul>
 </details>
