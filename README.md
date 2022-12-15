@@ -268,3 +268,13 @@ Fill the login form as follows and click on Connect:
 
 <img src="images\Coches.JPG"/>
 
+	
+#### SWAGGER INTERFACE
+
+URL to access Swagger interface: **http://localhost:8080/swagger-ui/index.html**.
+	
+<img src="images\Swagger.JPG"/>
+<img src="images\SwaggerSchema.JPG"/>
+
+	
+
