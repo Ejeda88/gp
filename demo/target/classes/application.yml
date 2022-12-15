@@ -1,0 +1,35 @@
+application:
+  name: 'demo'
+
+server:
+  port: 8080
+
+loggin:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %level %logger - %replace(%msg){'[\\n]',''}%n"
+  level:
+    root: debug
+    org.springframework.web: debug
+    org:
+      hibernate:
+        SQL: debug
+        type: debug    
+    
+spring:
+  profiles:
+    active: dev
+
+premium: 
+  precio: 300
+  puntos: 5
+  
+suv:
+  precio: 150
+  puntos: 3
+ 
+pequeno: 
+  precio: 50
+  puntos: 1
+    
+    
+  
