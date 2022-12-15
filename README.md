@@ -235,10 +235,10 @@ $ mvn spring-boot:run
 The code can also be built into a jar and then executed/run. Once the jar is built, run the jar by double clicking on it or by using the command 
 
 ```shell
-$ git clone https://github.com/Spring-Boot-Framework/Spring-Boot-Application-Template.git
-$ cd Spring-Boot-Application-Template
+$ git clone https://github.com/Ejeda88/gp.git
+$ cd demo
 $ mvn package -DskipTests
-$ java -jar target/SBtemplate-0.0.1-SNAPSHOT.jar --spring.profiles.active=test
+$ java -jar target/demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
 ```
 
 To shutdown the jar, follow the below mentioned steps on a Windows machine.
