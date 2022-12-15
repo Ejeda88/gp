@@ -61,8 +61,6 @@
 
 ## Files and Directories Structure
 
-The project (a.k.a. project directory) has a particular directory structure. A representative project is shown below:
-
 ### Project Structure
 
 ```text
