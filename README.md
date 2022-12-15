@@ -102,3 +102,32 @@
 ├── mvnw.cmd
 ├── pom.xml
 └── README.md
+```
+
+### Packages
+
+*   `api` - API utilities;
+*   `rate_limiting` - API rate limiting;
+*   `auditing` - data entity auditing;
+* 	`authentication` - application user authentication;
+* 	`configuration` - app configurations;
+* 	`controllers` - to listen to the client;
+* 	`exception` - to hold custom exception handling;
+* 	`models` - to hold our entities;
+* 	`repository` - to communicate with the database;
+* 	`security` - security configuration;
+* 	`jwt` - json web token for authentication;
+* 	`service` - to hold business logic;
+* 	`util` - to hold our utility classes;
+
+* 	`resources/` - Contains all the static resources, templates and property files.
+* 	`resources/data/mysql.migrations/` - Contains initial table structure & table data - used by flyway.
+* 	`resources/static` - contains static resources such as css, js and images.
+* 	`resources/templates` - contains server-side templates which are rendered by Spring.
+* 	`resources/templates/fragments` - contains reusable code fragments.
+* 	`resources/templates/pages` - contains server-side templates built using fragments.
+* 	`resources/application.properties` - It contains application-wide properties. Spring reads the properties defined in this file to configure your application. You can define server’s default port, server’s context path, database URLs etc, in this file.
+
+* 	`test/` - contains unit and integration tests
+
+* 	`pom.xml` - contains all the project dependencies
