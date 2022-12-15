@@ -119,6 +119,8 @@ Customers get loyalty points when renting a car, regardless of the time.
 | Foreign Keys |
 |  | fk_coche_cliente | ( cliente&#95;id ) ref [PUBLIC&#46;cliente](#cliente) (id) |
 
+<img src="images\ERR.png"/>
+
 ## Files and Directories Structure
 
 ### Project Structure
@@ -247,7 +249,7 @@ To shutdown the jar, follow the below mentioned steps on a Windows machine.
 
 ##### Accessing Data in H2 Database
 
-###### H2 Console
+#### H2 Console
 
 URL to access H2 console: **http://localhost:8080/h2/login.jsp**.
 
@@ -260,7 +262,9 @@ Fill the login form as follows and click on Connect:
 * 	User Name: **sa**
 * 	Password: password
 
-<img src="images\h2db\h2-console-login.PNG"/>
+<img src="images\LoginH2.JPG"/>
 
-<img src="images\h2db\h2-console-main-view.PNG"/>
+<img src="images\Cliente.JPG"/>
+
+<img src="images\Coches.JPG"/>
 
