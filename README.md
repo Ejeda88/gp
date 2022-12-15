@@ -250,21 +250,18 @@ To shutdown the jar, follow the below mentioned steps on a Windows machine.
 
 ###### H2 Console
 
-URL to access H2 console: **http://localhost:8080/h2-console/login.jsp** or **https://192.168.99.102:8080/h2-console/login.jsp** if **SSL** is enabled.
+URL to access H2 console: **http://localhost:8080/h2/login.jsp**.
 
 Fill the login form as follows and click on Connect:
 
 * 	Saved Settings: **Generic H2 (Embedded)**
 * 	Setting Name: **Generic H2 (Embedded)**
 * 	Driver class: **org.h2.Driver**
-* 	JDBC URL: **jdbc:h2:mem:sbat;MODE=MySQL**
+* 	JDBC URL: **jdbc:h2:mem:mydb**
 * 	User Name: **sa**
-* 	Password:
+* 	Password: password
 
 <img src="images\h2db\h2-console-login.PNG"/>
 
 <img src="images\h2db\h2-console-main-view.PNG"/>
 
-#### Running the application via docker container
-
-* 	Refer to [DOCKER.md](./DOCKER.md) for details.
