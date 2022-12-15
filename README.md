@@ -31,6 +31,6 @@
       <li>[ ] <a href="https://www.jsonwebtoken.io/">JSON Web Token</a> based authentication.</li>
       <li>[ ] <a href="https://docs.spring.io/spring-cloud-config/docs/current/reference/html/">Spring Cloud Config Server</a>, to centralize microservices configuration.</li>
       <li>[ ] <a href="https://spring.io/projects/spring-cloud-gateway">Spring Cloud Gateway</a></li>
-      <li>[ ] <a href="https://spring.io/projects/spring-cloud-gateway">Spring Cloud Netflix</a></li>
+      <li>[ ] <a href="https://spring.io/projects/spring-cloud-netflix">Spring Cloud Netflix</a></li>
   </ul>
 </details>
