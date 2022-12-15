@@ -58,3 +58,49 @@
 |⬈| <a name='PUBLIC.coche_cliente_id'>cliente&#95;id</a>| INTEGER  |
 | Foreign Keys |
 |  | fk_coche_cliente | ( cliente&#95;id ) ref [PUBLIC&#46;cliente](#cliente) (id) |
+
+## Files and Directories Structure
+
+The project (a.k.a. project directory) has a particular directory structure. A representative project is shown below:
+
+### Project Structure
+
+```text
+.
+├── Spring Elements
+├── src
+│   └── main
+│       └── java
+│           ├── com.globalpay.demo
+│           │ 
+│           ├── com.globalpay.demo.config
+│           │  
+│           ├──com.globalpay.demo.model
+│           ├──com.globalpay.demo.repository
+│           ├──com.globalpay.demo.rest
+│           ├──com.globalpay.demo.rest.util
+│           ├──com.globalpay.demo.service
+│           │ 
+│           ├──com.globalpay.demo.service.dto
+│           ├──com.globalpay.demo.service.impl
+│           │ 
+│           ├──com.globalpay.demo.service.impl.util
+│          
+├── src
+│   └── main
+│       └── resources
+│           ├── application.yml
+|           ├── application-dev.yml
+|           ├── data.sql
+|
+├── src
+│   └── test
+├── JRE System Library
+├── Maven Dependencies
+├── src
+├── target
+│   └──application-0.0.1-SNAPSHOT
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md
