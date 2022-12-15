@@ -75,13 +75,13 @@
 │           │  
 │           ├──com.globalpay.demo.model
 │           ├──com.globalpay.demo.repository
+│           │  
 │           ├──com.globalpay.demo.rest
 │           ├──com.globalpay.demo.rest.util
+│           │  
 │           ├──com.globalpay.demo.service
-│           │ 
 │           ├──com.globalpay.demo.service.dto
 │           ├──com.globalpay.demo.service.impl
-│           │ 
 │           ├──com.globalpay.demo.service.impl.util
 │          
 ├── src
@@ -89,6 +89,7 @@
 │       └── resources
 │           ├── application.yml
 |           ├── application-dev.yml
+│           │  
 |           ├── data.sql
 |
 ├── src
@@ -116,7 +117,8 @@
 * 	`service.impl`- to hold business logic;
 * 	`service.impl`- util class to our implementation services;
 * 	`resources/` - Contains all the static resources, templates and property files.
-* 	`resources/application.yml` - It contains application-wide properties. Spring reads the properties defined in this file to configure your application. You can define server’s default port, server’s context path, database URLs etc, in this file.
+* 	`resources/application.yml` 
+* 	`resources/application-dev.yml` - It contains application-wide properties. Spring reads the properties defined in this file to configure your application. You can define server’s default port, server’s context path, database URLs etc, in this file.
 
 * 	`test/` - contains unit and integration tests
 
