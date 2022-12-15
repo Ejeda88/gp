@@ -203,7 +203,6 @@ Customers get loyalty points when renting a car, regardless of the time.
 				</li>
 			</ul>
 		</li>
-		<li><a href="#running-the-application-via-docker-container">Running the application via docker container</a></li>
 	</ul>
 </details>
 
