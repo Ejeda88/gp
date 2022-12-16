@@ -286,6 +286,13 @@ The app defines following CRUD APIs:
 |----------------------------------------|--------|---------------------------|---------------------------|
 |`/api/coches`                           | GET    | None                      |Returns all cars.          | 
 |`/api/coche/{id}`                       | GET    | id, the id car            |Return the car by id.      |
-|`/api/available`                        | GET    | None                      |Return all non-rented cars.|
+|`/api/available`                        | GET    | None                      |Return all non-rented cars. Are represented by having the dates of rental and return with value 9999-12-31 00:00:00:00 and id_cliente to 0|
 
+### coche-controller
+
+|                   PATH                  | Method |          Parameters      |         Description       |
+|----------------------------------------|--------|---------------------------|---------------------------|
+|`/api/coches`                           | GET    | None                      |Returns all cars.          | 
+|`/api/coche/{id}`                       | GET    | id, the id car            |Return the car by id.      |
+|`/api/available`                        | GET    | None                      |Return all non-rented cars.|
 
