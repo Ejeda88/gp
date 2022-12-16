@@ -285,14 +285,14 @@ The app defines following CRUD APIs:
 |                   PATH                  | Method |          Parameters      |         Description       |
 |----------------------------------------|--------|---------------------------|---------------------------|
 |`/api/coches`                           | GET    | None                      |Returns all cars.          | 
-|`/api/coche/{id}`                       | GET    | id, the id car            |Return the car by id.      |
-|`/api/available`                        | GET    | None                      |Return all non-rented cars. Are represented by having the dates of rental and return with value 9999-12-31 00:00:00:00 and id_cliente to 0|
+|`/api/coche/{id}`                       | GET    | id, the car id (INT)      |Return the car by id.      |
+|`/api/available`                        | GET    | None                      |Return all non-rented cars. Are represented by having the dates of rental and return with value 9999-12-31 00:00:00:00 and id_cliente to 0.|
 
-### coche-controller
+### cliente-controller
 
 |                   PATH                  | Method |          Parameters      |         Description       |
 |----------------------------------------|--------|---------------------------|---------------------------|
-|`/api/coches`                           | GET    | None                      |Returns all cars.          | 
-|`/api/coche/{id}`                       | GET    | id, the id car            |Return the car by id.      |
-|`/api/available`                        | GET    | None                      |Return all non-rented cars.|
+|`/api/cliente/{dni}`                    | GET    | dni      (String)         |Returns client by dni.     | 
+|`/api/cliente`                          | POST   | Object   (Cliente)        |Create a new client.       |
+
 
