@@ -227,7 +227,7 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 
 ```shell
 $ git clone https://github.com/Ejeda88/gp.git
-$ cd demo
+$ cd gp/demo
 $ mvn spring-boot:run
 ```
 
@@ -237,7 +237,7 @@ The code can also be built into a jar and then executed/run. Once the jar is bui
 
 ```shell
 $ git clone https://github.com/Ejeda88/gp.git
-$ cd demo
+$ cd gp/demo
 $ mvn package -DskipTests
 $ java -jar target/demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
 ```
