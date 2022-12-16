@@ -34,7 +34,7 @@ public class AlquilerController {
 		return new ResponseEntity<>(alquilerService.calculoAlquiler(id_coche, dias),HttpStatus.OK);
 	}
 	
-	@GetMapping("/entregar/{id_coche}") public
+	@PutMapping("/entregar/{id_coche}") public
 	ResponseEntity<AlquilerEntregaDto>entregarCoche(int id_coche) throws ParseException{ 
 		log.debug("Car return id {}",id_coche);
 		return new ResponseEntity<>(alquilerService.devolucionCoche(id_coche),HttpStatus.OK); 
