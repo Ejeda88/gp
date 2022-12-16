@@ -276,5 +276,16 @@ URL to access Swagger interface: **http://localhost:8080/swagger-ui/index.html**
 <img src="images\Swagger.JPG"/>
 <img src="images\SwaggerSchema.JPG"/>
 
-	
+## Explore Rest APIs
+
+The app defines following CRUD APIs:
+
+### coche-controller
+
+|                   PATH                  | Method |          Parameters      |         Description       |
+|----------------------------------------|--------|---------------------------|---------------------------|
+|`/api/coches`                           | GET    | None                      |Returns all cars.          | 
+|`/api/coche/{id}`                       | GET    | id, the id car            |Return the car by id.      |
+|`/api/available`                        | GET    | None                      |Return all non-rented cars.|
+
 
