@@ -136,6 +136,8 @@ public class AlquilerServiceImpl implements AlquilerService {
 			if(coche.isPresent()) {
 				Coche carToSave = coche.get();
 				carToSave.setCliente(cli.get());
+				carToSave.setFx_alquiler(new Date(System.currentTimeMillis()));
+				carToSave.setFx_devolucion(UtilService.SumDaysToDate(dias));
 				cocheRepository.save(carToSave);
 			}
 		}
