@@ -299,7 +299,7 @@ The app defines following CRUD APIs:
 
 |                   PATH                  | Method |          Parameters      |         Description       |
 |----------------------------------------|--------|---------------------------|---------------------------|
-|`/api/alquiler_calc/{id_coche}{dias}    | GET    | id_coche and nº days      |Returns the car rental summary. | 
+|`/api/alquiler_calc/{id_coche}{dias}`   | GET    | id_coche and nº days      |Returns the car rental summary. | 
 |`/api/alquilar/{id_coche}{id_cliente}{dias}`                       | PUT    | the car id (INT), client id (INT) and nº days (INT)      | Associate a car to the customer (rental date with value, today and return date, the sum of today's date plus days)     |
 |`/api/entregar/{id_coche}`                        | PUT    | car id (INT)                      |Return the car to the car dealer. Calculate the total price to be paid and the extra, in case of late delivery. Set the dates with value 31/12/9999 and the customer id to 0.|
 
