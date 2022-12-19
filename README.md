@@ -67,7 +67,6 @@ Customers get loyalty points when renting a car, regardless of the time.
 |Technology                |Description         |
 |--------------------------|--------------------|
 |<a href="https://spring.io/projects/spring-boot">Spring Boot</a>  |Framework to ease the bootstrapping and development of new Spring Applications|
-|Security Framework                                                |Spring Security, JWT|
 |Persistent Layer Framework|Spring Data JPA                        |
 |<a href="https://www.h2database.com/html/main.html">H2 Database Engine</a>|Java SQL database. Embedded and server modes; in-memory databases|
 |<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">JDK 8</a>|Java™ Platform, Standard Edition Development Kit |
